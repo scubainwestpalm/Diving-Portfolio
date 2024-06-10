@@ -1,0 +1,22 @@
+{
+  "name": "dive-site-showcase-api",
+  "version": "1.0.0",
+  "description": "Dive Site Showcase API",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/app.ts",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "multer": "^1.4.5-lts.1",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

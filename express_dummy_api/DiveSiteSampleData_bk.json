@@ -1,0 +1,59 @@
+{
+    "dive_sites": [
+        {
+            "id": 0,
+            "name": "South of the Antarctic Circle",
+            "description": "Part of Antarctica branching off its main landmass, this area is south of Argentina. To get here you must take a voyage from Argentina in late season to experience this dive site.",
+            "coordinates": {
+                "lat": -64.9121,
+                "long": -62.7161
+            },
+            "thumbnailPath": "/thumbnailImages/01.jpg",
+            "region": "Antarctica"
+        },
+        {
+            "id": 1,
+            "name": "West Palm Beach",
+            "description": "A popular dive location in south florida, that offers a wide variety of wildlife to see, particularly sharks and goliath groupers. Pura vida divers is a very reputable and popular dive charter for bringing divers to the many wrecks and reefs off the coast of west palm beach, among others.",
+            "coordinates": {
+                "lat": 26.7938,
+                "long": -80.0518 
+            },
+            "thumbnailPath": "/thumbnailImages/02.png",
+            "region": "North America"
+        },
+        {
+            "id": 2,
+            "name": "Devil's Den Prehistoric Spring",
+            "description": "A popular dive location in northern florida, a subterranean natural pool for diving & snorkeling among rock formations, stalactites & fossil beds. Also has a cave system for cavern divers who have the proper experience, training, and equipment.",
+            "coordinates": {
+                "lat": 29.4072,
+                "long": -82.4761
+            },
+            "thumbnailPath": "/thumbnailImages/03.jpg",
+            "region": "North America"
+        },
+        {
+            "id": 3,
+            "name": "Great Barrier Reef",
+            "description": "World's largest coral reef system, composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres over an area of approximately 344,400 square kilometres. Toted as one of the most vibrant and flourishing reef systems in the world, and considered to be one of the biggest bucket list dives for any diver planning on traveling to international dive sites.",
+            "coordinates": {
+                "lat": -15.9146,
+                "long": 146.7784
+            },
+            "thumbnailPath": "/thumbnailImages/04.jpg",
+            "region": "Australia"
+        },
+        {
+            "id": 4,
+            "name": "Beqa Lagoon",
+            "description": "Surrounded by over 190 miles of spectacular coral reef, on one of the Worlds largest barrier reefs, Beqa Lagoon offers divers a gateway to a wonderland of marine life and some of the best diving in Fiji, the soft coral capital of the World. With dive sites that start as shallow as 15ft (5m) and drop away to nearly 100ft (30m), divers are able to explore at a variety of depths, depending on what they are in search of.",
+            "coordinates": {
+                "lat": -18.3608,
+                "long": 178.0793
+            },
+            "thumbnailPath": "/thumbnailImages/05.jpg",
+            "region": "Australia"
+        }
+    ]
+}
