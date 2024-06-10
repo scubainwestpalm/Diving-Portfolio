@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 234, 250, 255;
+  --background-middle-rgb: 0, 157, 196;
+  --background-end-rgb: 0, 32, 40;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-middle-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(175deg,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-middle-rgb)),
+      rgb(var(--background-end-rgb))) */
+  background-color: #009dc4;
+}
+
+.popupModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 500px;
+  min-width: 500px;
+  width: 50vw;
+  height: 50vw;
+  max-height: 80%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

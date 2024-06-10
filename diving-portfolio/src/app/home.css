@@ -1,0 +1,33 @@
+.typography {
+    display: flex;
+    width: 60%;
+    color: white;
+    justify-content: center;
+    padding-left: 5%;
+    align-content: center;
+    height: 50vh;
+}
+
+.typography h1 {
+    /* color:  rgb(177,239,254); */
+    color: white;
+}
+
+.main-content {
+    min-height: 80vh;
+}
+
+.photoAndSocials {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    width: 25vw;
+    height: 25vw;
+    background-size: cover;
+    border-radius: 100%;
+    background-position: 25%;
+}
